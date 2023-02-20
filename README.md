@@ -1,3 +1,6 @@
+leftwm
+firefox
+conky
 polybar
 logisim
 okteta
