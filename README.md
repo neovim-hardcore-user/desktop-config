@@ -1,4 +1,4 @@
-leftwm\n
+leftwm/n
 firefox
 conky
 polybar
