@@ -1,0 +1,203 @@
+14:39:35.684: Using EGL/X11
+14:39:35.699: CPU Name: 12th Gen Intel(R) Core(TM) i5-12600KF
+14:39:35.699: CPU Speed: 3700.000MHz
+14:39:35.699: Physical Cores: 10, Logical Cores: 16
+14:39:35.699: Physical Memory: 15857MB Total, 3716MB Free
+14:39:35.699: Kernel Version: Linux 5.15.89-1-MANJARO
+14:39:35.699: Distribution: "Manjaro Linux" Unknown
+14:39:35.699: Session Type: x11
+14:39:35.699: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+14:39:35.700: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+14:39:35.700: Portable mode: false
+14:39:35.719: OBS 29.0.0-1 (linux)
+14:39:35.719: ---------------------------------
+14:39:35.725: ---------------------------------
+14:39:35.725: audio settings reset:
+14:39:35.725: 	samples per sec: 48000
+14:39:35.725: 	speakers:        2
+14:39:35.725: 	max buffering:   960 milliseconds
+14:39:35.725: 	buffering type:  dynamically increasing
+14:39:35.726: ---------------------------------
+14:39:35.726: Initializing OpenGL...
+14:39:35.774: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060/PCIe/SSE2
+14:39:35.774: OpenGL loaded successfully, version 3.3.0 NVIDIA 525.85.05, shading language 3.30 NVIDIA via Cg compiler
+14:39:35.788: ---------------------------------
+14:39:35.788: video settings reset:
+14:39:35.788: 	base resolution:   1920x1080
+14:39:35.788: 	output resolution: 1920x1080
+14:39:35.788: 	downscale filter:  Bicubic
+14:39:35.788: 	fps:               60/1
+14:39:35.788: 	format:            NV12
+14:39:35.788: 	YUV mode:          Rec. 709/Partial
+14:39:35.788: NV12 texture support not available
+14:39:35.788: P010 texture support not available
+14:39:35.788: Audio monitoring device:
+14:39:35.788: 	name: Standard
+14:39:35.788: 	id: default
+14:39:35.788: ---------------------------------
+14:39:35.793: Failed to load 'en-US' text for module: 'decklink-captions.so'
+14:39:35.796: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+14:39:35.798: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+14:39:35.798: Failed to initialize module 'decklink.so'
+14:39:35.866: [pipewire] Available captures:
+14:39:35.866: [pipewire]     - Desktop capture
+14:39:35.866: [pipewire]     - Window capture
+14:39:35.887: NVENC supported
+14:39:35.887: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+14:39:35.887: FFmpeg VAAPI H264 encoding not supported
+14:39:35.915: ---------------------------------
+14:39:35.915:   Loaded Modules:
+14:39:35.915:     text-freetype2.so
+14:39:35.915:     rtmp-services.so
+14:39:35.915:     obs-x264.so
+14:39:35.915:     obs-vst.so
+14:39:35.915:     obs-transitions.so
+14:39:35.915:     obs-outputs.so
+14:39:35.915:     obs-libfdk.so
+14:39:35.915:     obs-filters.so
+14:39:35.915:     obs-ffmpeg.so
+14:39:35.915:     linux-v4l2.so
+14:39:35.915:     linux-pulseaudio.so
+14:39:35.915:     linux-pipewire.so
+14:39:35.915:     linux-jack.so
+14:39:35.915:     linux-capture.so
+14:39:35.915:     linux-alsa.so
+14:39:35.915:     image-source.so
+14:39:35.915:     frontend-tools.so
+14:39:35.915:     decklink-output-ui.so
+14:39:35.915:     decklink-captions.so
+14:39:35.915: ---------------------------------
+14:39:35.915: ==== Startup complete ===============================================
+14:39:35.939: All scene data cleared
+14:39:35.939: ------------------------------------------------
+14:39:35.941: pulse-input: Server name: 'pulseaudio 16.1'
+14:39:35.941: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:39:35.941: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+14:39:35.941: [Loaded global audio device]: 'Desktop-Audio'
+14:39:35.941: pulse-input: Server name: 'pulseaudio 16.1'
+14:39:35.941: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+14:39:35.941: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_BRIO_69EFDB12-03.iec958-stereo' (default)
+14:39:35.941: [Loaded global audio device]: 'Mikrofon-/AUX-Audio'
+14:39:35.988: [Media Source 'Medienquelle']: settings:
+14:39:35.988: 	input:                   /home/jasper/Dokumente/Blender/Projects/cube/Unben14:39:35.988: 	input:                   /home/jasper/Dokumente/Blender/Projects/cube/Unbenannt.mp4
+14:39:35.988: 	input_format:            (null)
+14:39:35.988: 	speed:                   70
+14:39:35.988: 	is_looping:              yes
+14:39:35.988: 	is_linear_alpha:         no
+14:39:35.988: 	is_hw_decoding:          yes
+14:39:35.988: 	is_clear_on_media_end:   yes
+14:39:35.988: 	restart_on_activate:     yes
+14:39:35.988: 	close_when_inactive:     no
+14:39:35.988: 	ffmpeg_options:          
+14:39:35.988: v4l2-input: Start capture from /dev/video0
+14:39:35.989: v4l2-input: Input: 0
+14:39:35.989: v4l2-input: Resolution: 1920x1080
+14:39:35.989: v4l2-input: Pixelformat: BGR3
+14:39:35.989: v4l2-input: Linesize: 5760 Bytes
+14:39:35.989: v4l2-input: Framerate: 30.00 fps
+14:39:35.992: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+14:39:35.992: xshm-input: Geometry 1920x1080 @ 0,0
+14:39:35.993: xshm-input: Geometry 1920x1080 @ 1920,0
+14:39:36.013: Switched to scene 'Camera'
+14:39:36.013: ------------------------------------------------
+14:39:36.013: Loaded scenes:
+14:39:36.013: - scene 'Dual Monitor':
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM)' (xshm_input)
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+14:39:36.013:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+14:39:36.013: - scene 'Camera':
+14:39:36.013:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+14:39:36.013:         - show: 'Videoaufnahmegerät (V4L2) Zeige-Übergang' (swipe_transition)
+14:39:36.013:         - hide: 'Videoaufnahmegerät (V4L2) Verstecke-Übergang' (swipe_transition)
+14:39:36.013: - scene 'Monitor1':
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM)' (xshm_input)
+14:39:36.013:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+14:39:36.013: - scene 'Monitor2':
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+14:39:36.013:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+14:39:36.013: - scene 'Standby':
+14:39:36.013:     - source: 'Medienquelle' (ffmpeg_source)
+14:39:36.013:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+14:39:36.013: - scene 'milk':
+14:39:36.013:     - source: 'Bild' (image_source)
+14:39:36.013: - scene 'shrek':
+14:39:36.013:     - source: 'Bild' (image_source)
+14:39:36.013:     - source: 'Bild 2' (image_source)
+14:39:36.013: - scene 'Fractal':
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+14:39:36.013:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+14:39:36.013: ------------------------------------------------
+14:39:36.493: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop-Audio)
+14:39:36.493: 
+14:39:37.313: v4l2-input: /dev/video0: select timed out
+14:39:37.313: v4l2-input: /dev/video0: failed to log status
+14:39:43.162: NV12 texture support not available
+14:39:43.162: P010 texture support not available
+14:39:47.776: Virtual camera started
+14:39:47.777: ==== Virtual Camera Start ==========================================
+14:52:28.390: User added filter 'Bewegung' (scroll_filter) to source 'Camera'
+14:59:52.607: User removed filter 'Bewegung' (scroll_filter) from source 'Camera'
+15:00:00.146: User added filter 'Schärfung' (sharpness_filter_v2) to source 'Camera'
+15:00:29.416: User duplicated filter 'Schärfung 2' (sharpness_filter_v2) from 'Schärfung 2' to source 'Camera'
+15:00:37.560: User duplicated filter 'Schärfung 2 2' (sharpness_filter_v2) from 'Schärfung 2 2' to source 'Camera'
+15:00:39.977: User duplicated filter 'Schärfung 2 2 2' (sharpness_filter_v2) from 'Schärfung 2 2 2' to source 'Camera'
+15:00:42.519: User duplicated filter 'Schärfung 2 2 2 2' (sharpness_filter_v2) from 'Schärfung 2 2 2 2' to source 'Camera'
+15:01:11.257: User removed filter 'Schärfung' (sharpness_filter_v2) from source 'Camera'
+15:01:13.833: User removed filter 'Schärfung 2' (sharpness_filter_v2) from source 'Camera'
+15:01:40.762: User removed filter 'Schärfung 2 2' (sharpness_filter_v2) from source 'Camera'
+15:07:07.584: User removed filter 'Schärfung 2 2 2 2' (sharpness_filter_v2) from source 'Camera'
+15:07:10.015: User removed filter 'Schärfung 2 2 2' (sharpness_filter_v2) from source 'Camera'
+15:07:13.474: User added filter 'Farbkorrektur' (color_filter_v2) to source 'Camera'
+15:09:59.541: User duplicated filter 'Farbkorrektur 2' (color_filter_v2) from 'Farbkorrektur 2' to source 'Camera'
+15:10:04.043: User duplicated filter 'Farbkorrektur 2 2' (color_filter_v2) from 'Farbkorrektur 2 2' to source 'Camera'
+15:10:09.467: User duplicated filter 'Farbkorrektur 2 2 2' (color_filter_v2) from 'Farbkorrektur 2 2 2' to source 'Camera'
+15:10:54.261: User removed filter 'Farbkorrektur' (color_filter_v2) from source 'Camera'
+15:10:57.133: User removed filter 'Farbkorrektur 2' (color_filter_v2) from source 'Camera'
+15:11:00.398: User removed filter 'Farbkorrektur 2 2' (color_filter_v2) from source 'Camera'
+15:12:05.821: User added filter 'Farbkorrektur' (color_filter_v2) to source 'Camera'
+15:12:37.054: User switched to scene 'Dual Monitor'
+15:12:38.750: User switched to scene 'Camera'
+15:12:39.400: User switched to scene 'Monitor2'
+15:12:42.734: User switched to scene 'Standby'
+15:12:43.694: User switched to scene 'milk'
+15:12:45.478: User switched to scene 'shrek'
+15:12:47.918: User switched to scene 'Fractal'
+15:12:49.134: User switched to scene 'shrek'
+15:12:49.782: User switched to scene 'milk'
+15:13:24.143: User switched to scene 'Camera'
+15:13:31.128: User removed filter 'Farbkorrektur 2 2 2' (color_filter_v2) from source 'Camera'
+15:28:52.654: User removed filter 'Farbkorrektur' (color_filter_v2) from source 'Camera'
+16:12:30.535: User switched to scene 'Dual Monitor'
+16:12:35.135: User switched to scene 'shrek'
+16:12:46.519: User switched to scene 'Camera'
+16:12:47.584: User added source 'Bild 2' (image_source) to scene 'Camera'
+21:43:12.363: v4l2-input: /dev/video0: select timed out
+21:43:12.363: v4l2-input: /dev/video0: failed to log status
+21:46:48.108: v4l2-input: /dev/video0: select timed out
+21:46:48.108: v4l2-input: /dev/video0: failed to log status
+21:46:48.275: v4l2-input: /dev/video0: select timed out
+21:46:48.275: v4l2-input: /dev/video0: failed to log status
+21:46:48.442: v4l2-input: /dev/video0: select timed out
+21:46:48.442: v4l2-input: /dev/video0: failed to log status
+21:46:48.609: v4l2-input: /dev/video0: select timed out
+21:46:48.609: v4l2-input: /dev/video0: failed to log status
+21:46:48.695: v4l2-input: /dev/video0: failed to dequeue buffer
+21:46:48.695: v4l2-input: /dev/video0: Stopped capture after 499104 frames
+21:46:48.695: v4l2-helpers: unable to stop stream
+21:46:48.697: v4l2-input: Device /dev/video0 disconnected
+21:46:52.492: v4l2-input: Device /dev/video0 reconnected
+21:46:52.492: v4l2-input: Start capture from /dev/video0
+21:46:52.493: v4l2-input: Input: 0
+21:46:52.494: v4l2-input: Resolution: 1920x1080
+21:46:52.494: v4l2-input: Pixelformat: BGR3
+21:46:52.494: v4l2-input: Linesize: 5760 Bytes
+21:46:52.494: v4l2-input: Framerate: 30.00 fps
+21:46:52.497: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+21:46:53.473: v4l2-input: /dev/video0: select timed out
+21:46:53.473: v4l2-input: /dev/video0: failed to log status
+00:41:48.359: ==== Shutting down ==================================================
+00:41:48.418: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+00:41:48.418: pulse-input: Got 4001778 packets with 1734193333 frames
+00:41:48.418: pulse-input: Stopped recording from 'alsa_input.usb-046d_Logitech_BRIO_69EFDB12-03.iec958-stereo'
+00:41:48.418: pulse-input: Got 4001778 packets with 1734193333 frames

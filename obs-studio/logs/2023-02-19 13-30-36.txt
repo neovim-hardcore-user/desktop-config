@@ -1,0 +1,257 @@
+13:30:36.097: Using EGL/X11
+13:30:36.111: CPU Name: 12th Gen Intel(R) Core(TM) i5-12600KF
+13:30:36.111: CPU Speed: 4485.899MHz
+13:30:36.131: Physical Cores: 10, Logical Cores: 16
+13:30:36.131: Physical Memory: 15857MB Total, 2850MB Free
+13:30:36.131: Kernel Version: Linux 5.15.89-1-MANJARO
+13:30:36.131: Distribution: "Manjaro Linux" Unknown
+13:30:36.131: Session Type: x11
+13:30:36.131: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+13:30:36.132: Qt Version: 6.4.2 (runtime), 6.4.2 (compiled)
+13:30:36.132: Portable mode: false
+13:30:36.153: OBS 29.0.0-1 (linux)
+13:30:36.153: ---------------------------------
+13:30:36.160: ---------------------------------
+13:30:36.160: audio settings reset:
+13:30:36.160: 	samples per sec: 48000
+13:30:36.160: 	speakers:        2
+13:30:36.160: 	max buffering:   960 milliseconds
+13:30:36.160: 	buffering type:  dynamically increasing
+13:30:36.161: ---------------------------------
+13:30:36.161: Initializing OpenGL...
+13:30:36.246: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce RTX 3060/PCIe/SSE2
+13:30:36.246: OpenGL loaded successfully, version 3.3.0 NVIDIA 525.85.05, shading language 3.30 NVIDIA via Cg compiler
+13:30:36.260: ---------------------------------
+13:30:36.260: video settings reset:
+13:30:36.260: 	base resolution:   1920x1080
+13:30:36.260: 	output resolution: 1920x1080
+13:30:36.260: 	downscale filter:  Bicubic
+13:30:36.260: 	fps:               60/1
+13:30:36.260: 	format:            NV12
+13:30:36.260: 	YUV mode:          Rec. 709/Partial
+13:30:36.260: NV12 texture support not available
+13:30:36.260: P010 texture support not available
+13:30:36.260: Audio monitoring device:
+13:30:36.260: 	name: Standard
+13:30:36.260: 	id: default
+13:30:36.260: ---------------------------------
+13:30:36.266: Failed to load 'en-US' text for module: 'decklink-captions.so'
+13:30:36.271: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+13:30:36.277: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+13:30:36.277: Failed to initialize module 'decklink.so'
+13:30:36.349: [pipewire] Available captures:
+13:30:36.349: [pipewire]     - Desktop capture
+13:30:36.349: [pipewire]     - Window capture
+13:30:36.369: NVENC supported
+13:30:36.369: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+13:30:36.369: FFmpeg VAAPI H264 encoding not supported
+13:30:36.395: ---------------------------------
+13:30:36.395:   Loaded Modules:
+13:30:36.395:     text-freetype2.so
+13:30:36.395:     rtmp-services.so
+13:30:36.395:     obs-x264.so
+13:30:36.395:     obs-vst.so
+13:30:36.395:     obs-transitions.so
+13:30:36.395:     obs-outputs.so
+13:30:36.395:     obs-libfdk.so
+13:30:36.395:     obs-filters.so
+13:30:36.395:     obs-ffmpeg.so
+13:30:36.395:     linux-v4l2.so
+13:30:36.395:     linux-pulseaudio.so
+13:30:36.395:     linux-pipewire.so
+13:30:36.395:     linux-jack.so
+13:30:36.395:     linux-capture.so
+13:30:36.395:     linux-alsa.so
+13:30:36.395:     image-source.so
+13:30:36.395:     frontend-tools.so
+13:30:36.395:     decklink-output-ui.so
+13:30:36.395:     decklink-captions.so
+13:30:36.395: ---------------------------------
+13:30:36.395: ==== Startup complete ===============================================
+13:30:36.416: All scene data cleared
+13:30:36.416: ------------------------------------------------
+13:30:36.417: pulse-input: Server name: 'pulseaudio 16.1'
+13:30:36.417: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:30:36.417: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+13:30:36.417: [Loaded global audio device]: 'Desktop-Audio'
+13:30:36.418: pulse-input: Server name: 'pulseaudio 16.1'
+13:30:36.418: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+13:30:36.418: pulse-input: Started recording from 'alsa_input.usb-046d_Logitech_BRIO_69EFDB12-03.iec958-stereo' (default)
+13:30:36.418: [Loaded global audio device]: 'Mikrofon-/AUX-Audio'
+13:30:36.474: [Media Source 'Medienquelle']: settings:
+13:30:36.474: 	input:                   /home/jasper/Dokumente/Blender/Projects/cube/Unben13:30:36.474: 	input:                   /home/jasper/Dokumente/Blender/Projects/cube/Unbenannt.mp4
+13:30:36.474: 	input_format:            (null)
+13:30:36.474: 	speed:                   70
+13:30:36.474: 	is_looping:              yes
+13:30:36.474: 	is_linear_alpha:         no
+13:30:36.474: 	is_hw_decoding:          yes
+13:30:36.474: 	is_clear_on_media_end:   yes
+13:30:36.474: 	restart_on_activate:     yes
+13:30:36.474: 	close_when_inactive:     no
+13:30:36.474: 	ffmpeg_options:          
+13:30:36.474: v4l2-input: Start capture from /dev/video0
+13:30:36.475: v4l2-input: Input: 0
+13:30:36.475: v4l2-input: Resolution: 1920x1080
+13:30:36.475: v4l2-input: Pixelformat: BGR3
+13:30:36.475: v4l2-input: Linesize: 5760 Bytes
+13:30:36.475: v4l2-input: Framerate: 30.00 fps
+13:30:36.478: v4l2-input: /dev/video0: select timeout set to 166666 (5x frame periods)
+13:30:36.478: xshm-input: Geometry 1920x1080 @ 0,0
+13:30:36.478: xshm-input: Geometry 1920x1080 @ 1920,0
+13:30:36.491: Switched to scene 'Camera'
+13:30:36.491: ------------------------------------------------
+13:30:36.491: Loaded scenes:
+13:30:36.491: - scene 'Dual Monitor':
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM)' (xshm_input)
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+13:30:36.491:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+13:30:36.491: - scene 'Camera':
+13:30:36.491:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+13:30:36.491:         - show: 'Videoaufnahmegerät (V4L2) Zeige-Übergang' (swipe_transition)
+13:30:36.491:         - hide: 'Videoaufnahmegerät (V4L2) Verstecke-Übergang' (swipe_transition)
+13:30:36.491:     - source: 'Bild 2' (image_source)
+13:30:36.491: - scene 'Monitor1':
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM)' (xshm_input)
+13:30:36.491:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+13:30:36.491: - scene 'Monitor2':
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+13:30:36.491:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+13:30:36.491: - scene 'Standby':
+13:30:36.491:     - source: 'Medienquelle' (ffmpeg_source)
+13:30:36.491:     - source: 'Text (FreeType 2)' (text_ft2_source_v2)
+13:30:36.491: - scene 'milk':
+13:30:36.491:     - source: 'Bild' (image_source)
+13:30:36.491: - scene 'shrek':
+13:30:36.491:     - source: 'Bild' (image_source)
+13:30:36.491:     - source: 'Bild 2' (image_source)
+13:30:36.491: - scene 'Fractal':
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+13:30:36.491:     - source: 'Bildschirmaufnahme (XSHM) 2' (xshm_input)
+13:30:36.491: ------------------------------------------------
+13:30:36.949: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop-Audio)
+13:30:36.949: 
+13:30:37.799: v4l2-input: /dev/video0: select timed out
+13:30:37.799: v4l2-input: /dev/video0: failed to log status
+13:30:42.352: NV12 texture support not available
+13:30:42.352: P010 texture support not available
+13:30:46.226: Virtual camera started
+13:30:46.227: ==== Virtual Camera Start ==========================================
+13:30:55.641: Switched to Preview/Program mode
+13:30:55.641: ------------------------------------------------
+13:30:56.528: Switched to scene 'Camera'
+13:30:56.563: Switched to regular Preview mode
+13:30:56.563: ------------------------------------------------
+13:30:57.113: Switched to Preview/Program mode
+13:30:57.113: ------------------------------------------------
+13:30:59.512: Switched to scene 'Camera'
+13:30:59.527: Switched to regular Preview mode
+13:30:59.527: ------------------------------------------------
+13:31:08.295: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:31:08.295: device_draw (GL) failed
+13:31:08.961: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:31:08.961: device_draw (GL) failed
+13:31:26.761: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:31:26.761: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:31:26.761: device_draw (GL) failed
+13:44:47.214: User Removed source 'Bild 2' (image_source) from scene 'Camera'
+13:45:02.118: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:02.118: device_draw (GL) failed
+13:45:02.284: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:02.284: device_draw (GL) failed
+13:45:13.385: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.385: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.385: device_draw (GL) failed
+13:45:13.418: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.418: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.418: device_draw (GL) failed
+13:45:13.485: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.485: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:13.485: device_draw (GL) failed
+13:45:14.068: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:14.068: device_draw (GL) failed
+13:45:15.434: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:15.435: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:15.435: device_draw (GL) failed
+13:45:18.568: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:18.568: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:18.568: device_draw (GL) failed
+13:45:19.618: glBindVertexArray failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:19.618: glDrawArrays failed, glGetError returned GL_INVALID_OPERATION(0x502)
+13:45:19.618: device_draw (GL) failed
+13:45:26.310: ==== Shutting down ==================================================
+13:45:26.317: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+13:45:26.317: pulse-input: Got 118920 packets with 42691661 frames
+13:45:26.317: pulse-input: Stopped recording from 'alsa_input.usb-046d_Logitech_BRIO_69EFDB12-03.iec958-stereo'
+13:45:26.317: pulse-input: Got 118920 packets with 42691661 frames
+13:45:26.347: v4l2-input: /dev/video0: Stopped capture after 23103 frames
+13:45:26.475: All scene data cleared
+13:45:26.475: ------------------------------------------------
+13:45:26.478: Output 'virtualcam_output': stopping
+13:45:26.478: Output 'virtualcam_output': Total frames output: 52783
+13:45:26.478: Output 'virtualcam_output': Total drawn frames: 52780 (52783 attempted)
+13:45:26.478: Output 'virtualcam_output': Number of lagged frames due to rendering lag/stalls: 3 (0.0%)
+13:45:26.478: Virtual camera stopped
+13:45:26.543: [Scripting] Total detached callbacks: 0
+13:45:26.544: Freeing OBS context data
+13:45:26.544: 1 views remain at shutdown
+13:45:26.606: == Profiler Results =============================
+13:45:26.606: run_program_init: 507.22 ms
+13:45:26.606:  ┣OBSApp::AppInit: 3.338 ms
+13:45:26.606:  ┃ ┗OBSApp::InitLocale: 1.337 ms
+13:45:26.606:  ┗OBSApp::OBSInit: 417.946 ms
+13:45:26.606:    ┣obs_startup: 34.764 ms
+13:45:26.606:    ┗OBSBasic::OBSInit: 355.238 ms
+13:45:26.606:      ┣OBSBasic::InitBasicConfig: 0.078 ms
+13:45:26.606:      ┣OBSBasic::ResetAudio: 0.083 ms
+13:45:26.606:      ┣OBSBasic::ResetVideo: 100.658 ms
+13:45:26.606:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+13:45:26.606:      ┣OBSBasic::InitHotkeys: 0.051 ms
+13:45:26.606:      ┣obs_load_all_modules2: 134.213 ms
+13:45:26.606:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+13:45:26.606:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+13:45:26.606:      ┃ ┣obs_init_module(decklink.so): 0.144 ms
+13:45:26.606:      ┃ ┣obs_init_module(frontend-tools.so): 47.482 ms
+13:45:26.606:      ┃ ┣obs_init_module(image-source.so): 0.005 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-alsa.so): 0.002 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-capture.so): 0.247 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-pipewire.so): 0.846 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+13:45:26.606:      ┃ ┣obs_init_module(linux-v4l2.so): 4.579 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-ffmpeg.so): 0.502 ms
+13:45:26.606:      ┃ ┃ ┗nvenc_check: 0.339 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-filters.so): 0.017 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-libfdk.so): 0.001 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-transitions.so): 0.006 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-vst.so): 0.003 ms
+13:45:26.606:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+13:45:26.606:      ┃ ┣obs_init_module(rtmp-services.so): 0.397 ms
+13:45:26.606:      ┃ ┗obs_init_module(text-freetype2.so): 0.007 ms
+13:45:26.606:      ┣OBSBasic::ResetOutputs: 0.083 ms
+13:45:26.606:      ┣OBSBasic::CreateHotkeys: 0.023 ms
+13:45:26.606:      ┣OBSBasic::InitService: 0.668 ms
+13:45:26.606:      ┣OBSBasic::InitPrimitives: 0.095 ms
+13:45:26.606:      ┗OBSBasic::Load: 96.42 ms
+13:45:26.606: obs_hotkey_thread(25 ms): min=0.025 ms, median=0.048 ms, max=41.015 ms, 99th percentile=0.299 ms, 99.9972% below 25 ms
+13:45:26.606: audio_thread(Audio): min=0.006 ms, median=0.057 ms, max=47.249 ms, 99th percentile=0.242 ms
+13:45:26.606: obs_graphics_thread(16.6667 ms): min=0.04 ms, median=1.225 ms, max=65.523 ms, 99th percentile=6.823 ms, 99.9475% below 16.667 ms
+13:45:26.606:  ┣tick_sources: min=0 ms, median=0.012 ms, max=62.532 ms, 99th percentile=0.344 ms
+13:45:26.606:  ┣output_frame: min=0.019 ms, median=0.606 ms, max=63.122 ms, 99th percentile=1.738 ms
+13:45:26.606:  ┃ ┣gs_context(video->graphics): min=0.019 ms, median=0.099 ms, max=62.497 ms, 99th percentile=1.043 ms, 1.99316 calls per parent call
+13:45:26.606:  ┃ ┃ ┣render_video: min=0.008 ms, median=0.08 ms, max=62.446 ms, 99th percentile=1.008 ms
+13:45:26.606:  ┃ ┃ ┃ ┣render_main_texture: min=0.006 ms, median=0.051 ms, max=62.437 ms, 99th percentile=1.001 ms
+13:45:26.606:  ┃ ┃ ┃ ┣render_convert_texture: min=0.019 ms, median=0.027 ms, max=0.932 ms, 99th percentile=0.061 ms, 0.496104 calls per parent call
+13:45:26.606:  ┃ ┃ ┃ ┗stage_output_texture: min=0.013 ms, median=0.021 ms, max=15.788 ms, 99th percentile=0.087 ms, 0.496104 calls per parent call
+13:45:26.606:  ┃ ┃ ┣gs_flush: min=0.003 ms, median=0.006 ms, max=0.691 ms, 99th percentile=0.025 ms
+13:45:26.606:  ┃ ┃ ┗download_frame: min=0 ms, median=0.001 ms, max=5.247 ms, 99th percentile=0.003 ms, 0.496104 calls per parent call
+13:45:26.606:  ┃ ┗output_video_data: min=0.251 ms, median=0.309 ms, max=1.262 ms, 99th percentile=0.63 ms
+13:45:26.606:  ┗render_displays: min=0.007 ms, median=0.384 ms, max=32.376 ms, 99th percentile=5.472 ms
+13:45:26.606: video_thread(video): min=2.083 ms, median=2.291 ms, max=11.535 ms, 99th percentile=2.917 ms
+13:45:26.606: =================================================
+13:45:26.606: == Profiler Time Between Calls ==================
+13:45:26.606: obs_hotkey_thread(25 ms): min=3.091 ms, median=25.107 ms, max=66.083 ms, 99.24% within ±2% of 25 ms (0.00282534% lower, 0.75719% higher)
+13:45:26.606: obs_graphics_thread(16.6667 ms): min=1.758 ms, median=16.667 ms, max=65.533 ms, 99.9213% within ±2% of 16.667 ms (0.0393428% lower, 0.0393428% higher)
+13:45:26.606: =================================================
+13:45:26.618: Number of memory leaks: 0
