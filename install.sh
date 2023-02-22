@@ -23,5 +23,7 @@ cp nvim ~/.config/
 cp obs-studio ~/.config/
 cp rofi ~/.config/
 
+cp .xinitrc ~/
+
 rm -rf yay-git
 
