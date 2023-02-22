@@ -1,5 +1,3 @@
-cd ~
-
 sudo pacman -Syu
 sudo pacman -S flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -14,5 +12,16 @@ cd yay-git
 
 makepkg -si
 
-yay -S leftwm logisim okteta-git parallel-launcher airshipper libresprite jitsi-meet github-desktop
+yay -S leftwm logisim parallel-launcher airshipper libresprite jitsi-meet github-desktop
+
+cd ~/desktop-config
+
+cp conky ~/.config/
+cp kitty ~/.config/
+cp leftwm ~/.config/
+cp nvim ~/.config/
+cp obs-studio ~/.config/
+cp rofi ~/.config/
+
+rm -rf yay-git
 
